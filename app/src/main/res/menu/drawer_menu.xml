@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inbox"
+            android:title="Inbox"
+
+            />
+    </group>
+
+    <item
+        android:title="Account"
+        >
+        <menu>
+            <item
+                android:id="@+id/account"
+                android:title="Profile"
+                />
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:title="About"
+        >
+        <menu>
+            <item
+                android:id="@+id/aboutapp"
+                android:title="About App"
+                />
+            <item
+                android:id="@+id/aboutcompany"
+                android:title="About Developer"
+                />
+            <item
+                android:id="@+id/shareapp"
+                android:title="Share this app"
+                />
+        </menu>
+    </item>
+</menu>

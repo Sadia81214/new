@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GrihoShikkhok">
+        <activity
+            android:name="com.example.grihoshikkhok.Tecdocview"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.viewdocuments"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.id"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.nidback"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.nidfront"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.birthorid"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.Edit_pass"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.Edit_Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.TeacherHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.StudentHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.grihoshikkhok.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "729532958258",
+    "firebase_url": "https://grihoshikkhok-330e2-default-rtdb.firebaseio.com",
+    "project_id": "grihoshikkhok-330e2",
+    "storage_bucket": "grihoshikkhok-330e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729532958258:android:9d5bba4798e84db3931e2b",
+        "android_client_info": {
+          "package_name": "com.example.grihoshikkhok"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn--u2sKSF4ON-6K8ypiFuxqYXlt8xM7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

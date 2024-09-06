@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.grihoshikkhok.viewdocuments"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/img0"
+                android:layout_width="300sp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30sp"
+                android:src="@drawable/certificate" />
+            <TextView
+                android:id="@+id/iv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NID/Birth Certificate"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="300sp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30sp"
+                android:src="@drawable/certificate" />
+            <TextView
+                android:id="@+id/iv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardian NID Front"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="300sp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30sp"
+                android:src="@drawable/certificate" />
+            <TextView
+                android:id="@+id/iv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardian NID Back"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="300sp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30sp"
+                android:src="@drawable/certificate" />
+            <TextView
+                android:id="@+id/iv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Card"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="22sp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
